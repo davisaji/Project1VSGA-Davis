@@ -6,8 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.project.R;
-
+import com.example.project1.Welcome.Welcome;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(MainActivity.this, HomeActivity.class);
+                Intent i = new Intent(MainActivity.this, Welcome.class);
                 startActivity(i);
                 finish();
             }

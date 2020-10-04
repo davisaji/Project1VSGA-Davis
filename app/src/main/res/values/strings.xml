@@ -1,6 +1,20 @@
 <resources>
-    <string name="app_name">Project</string>
-    <string name="todo">TODO</string>
-    <string name="nama_program">Nama Program</string>
+    <string name="app_name">Project1</string>
+    <string name="todo">Logo</string>
+    <string name="nama_program">VSGA dy Davis</string>
     <string name="davis_aji">Davis Aji</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Login</string>
+    <string name="contact_us_wa">Contact Us WA</string>
+    <string name="get_started">Get Started</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="daftar_fitur">Daftar Fitur</string>
 </resources>

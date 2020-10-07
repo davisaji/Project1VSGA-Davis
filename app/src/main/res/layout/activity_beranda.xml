@@ -25,8 +25,31 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:text="New Order"
+        android:onClick="OrderNew"
         app:layout_constraintEnd_toEndOf="@+id/daftar_menu"
         app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="@+id/daftar_menu"
         app:layout_constraintTop_toBottomOf="@+id/daftar_menu" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text="KALKULATOR WARUNG\n MAKAN SEDERHANA"
+        app:layout_constraintBottom_toTopOf="@+id/daftar_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Riwayat Order"
+        android:onClick="riwayatOrde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pemesanan" />
 </androidx.constraintlayout.widget.ConstraintLayout>

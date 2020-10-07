@@ -20,4 +20,6 @@
     <string name="tab1">Tab1</string>
     <string name="tab2">Tab2</string>
     <string name="tab3">Tab3</string>
+    <string name="tambah_menu">Tambah Menu</string>
+    <string name="beranda">beranda</string>
 </resources>

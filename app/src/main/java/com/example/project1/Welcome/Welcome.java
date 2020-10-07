@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.project1.Beranda;
 import com.example.project1.DaftarFitur;
 import com.example.project1.MainActivity;
 import com.example.project1.R;
@@ -46,8 +47,9 @@ public class Welcome extends AppCompatActivity {
                         loadFragment(new Welcome3());
                         break;
                     case 4:
-                        Intent intent = new Intent(Welcome.this, DaftarFitur.class);
+                        Intent intent = new Intent(Welcome.this, Beranda.class);
                         startActivity(intent);
+                        finish();
                         break;
                     default:
                         loadFragment(new Welcome1());

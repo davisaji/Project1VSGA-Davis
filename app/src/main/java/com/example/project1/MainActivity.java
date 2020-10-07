@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(MainActivity.this, Beranda.class);
+                Intent i = new Intent(MainActivity.this, Welcome.class);
                 startActivity(i);
                 finish();
             }
-        }, 1000);
+        }, 2000);
     }
 }

@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:text="5000"
         app:layout_constraintStart_toStartOf="@+id/LabelHarga"
         app:layout_constraintTop_toBottomOf="@+id/LabelHarga" />

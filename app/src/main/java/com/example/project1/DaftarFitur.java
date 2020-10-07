@@ -13,7 +13,10 @@ import android.os.Bundle;
 import com.example.project1.DF.dft1;
 import com.example.project1.DF.dft2;
 import com.example.project1.DF.dft3;
+import com.example.project1.Model.DMModel;
 import com.google.android.material.tabs.TabLayout;
+
+import java.util.List;
 
 public class DaftarFitur extends AppCompatActivity {
 

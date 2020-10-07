@@ -20,15 +20,18 @@ public class DaftarMenu extends AppCompatActivity implements DMAdapter.OnContact
     public RecyclerView rv;
     public DMAdapter dmadapter;
     public RecyclerView.LayoutManager layoutManager;
-    public static List<DMModel> listDM = new ArrayList<>();
+    public static List<DMModel> listDM;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daftar_menu);
         rv = findViewById(R.id.rvdm);
-        listDM.add(new DMModel("Bakso Solo", "15000"));
-        listDM.add(new DMModel("Gado-gado", "10000"));
-        listDM.add(new DMModel("Soto Ayam", "17000"));
+        if(listDM == null){
+            listDM = new ArrayList<>();
+            listDM.add(new DMModel("Bakso Solo", "15000"));
+            listDM.add(new DMModel("Gado-gado", "10000"));
+            listDM.add(new DMModel("Soto Ayam", "17000"));
+        }
         dmadapter = new DMAdapter(listDM);
         dmadapter.setListener(this);
         layoutManager = new LinearLayoutManager(getApplicationContext());
@@ -42,6 +45,12 @@ public class DaftarMenu extends AppCompatActivity implements DMAdapter.OnContact
 
     public void tambahMenuBaru(View view) {
         Intent i = new Intent(DaftarMenu.this, DaftarMenuAdd.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void beranda(View view) {
+        Intent i = new Intent(DaftarMenu.this, Beranda.class);
         startActivity(i);
     }
 }

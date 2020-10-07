@@ -1,5 +1,4 @@
 package com.example.project1;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,9 +6,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.example.project1.Welcome.Welcome;
-
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(MainActivity.this, Welcome.class);
+                Intent i = new Intent(MainActivity.this, DaftarMenu.class);
                 startActivity(i);
                 finish();
             }

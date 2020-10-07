@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/dxd_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DaftarFitur"></activity>
+        <activity android:name=".DaftarMenuAdd"></activity>
+        <activity android:name=".DaftarMenu" />
+        <activity android:name=".DaftarFitur" />
         <activity android:name=".Welcome.Welcome1" />
         <activity android:name=".Welcome.Welcome" />
         <activity android:name=".MainActivity">

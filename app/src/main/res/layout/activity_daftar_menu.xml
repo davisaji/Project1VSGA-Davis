@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.515" />
-
+    <!--Sudah pake RV bu-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvdm"
         android:layout_width="409dp"
